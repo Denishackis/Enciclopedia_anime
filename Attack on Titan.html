@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack on Titan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .character-card img {
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Attack on Titan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#personajes">Personajes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#datos">Datos Curiosos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="inicio" class="hero">
+        <div class="container">
+            <h1 class="display-4">Explora el Mundo de Attack on Titan</h1>
+            <p class="lead">Una historia épica de lucha, supervivencia y humanidad.</p>
+            <img src="./img/Attack on titan.jpeg">
+        </div>
+    </div>
+
+    <!-- Section: Personajes -->
+    <section id="personajes" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Personajes Principales</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card character-card">
+                        <img src="./img/Erenpersonaje.jpeg" class="card-img-top" alt="Eren Yeager">
+                        <div class="card-body">
+                            <h5 class="card-title">Eren Yeager</h5>
+                            <p class="card-text">Eren desde niño hasta su adolescencia jura vengarse de las enormes y monstruosas criaturas conocidas como titanes porque uno de ellos devoro a su madre y destruyeron su ciudad en la Muralla María.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card character-card">
+                        <img src="./img/Mikasapersonaje.jpeg" class="card-img-top" alt="Mikasa Ackerman">
+                        <div class="card-body">
+                            <h5 class="card-title">Mikasa Ackerman</h5>
+                            <p class="card-text"> Mikasa es presentada como una joven pueblerina que vive con la familia Yeager tras ser adoptada debido a la muerte de sus padres.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card character-card">
+                        <img src="./img/Arminpersonaje.jpeg" class="card-img-top" alt="Armin Arlert">
+                        <div class="card-body">
+                            <h5 class="card-title">Armin Arlert</h5>
+                            <p class="card-text">Es un amigo de la infancia de Eren Jaeger y Mikasa Ackerman. Aunque físicamente es más débil que el resto de sus compañeros, demuestra una gran inteligencia a través de su capacidad estratégica y soluciones rápida</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Datos Curiosos -->
+    <section id="datos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Datos Curiosos</h2>
+            <ul class="list-group list-group-flush mt-4">
+                <li class="list-group-item">El manga de Attack on Titan fue creado por Hajime Isayama en 2009.</li>
+                <li class="list-group-item">La serie combina géneros de acción, drama y misterio con elementos filosóficos.</li>
+                <li class="list-group-item">El "Muro María", "Muro Rose" y "Muro Sina" son referencias simbólicas importantes.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Attack on Titan . Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
